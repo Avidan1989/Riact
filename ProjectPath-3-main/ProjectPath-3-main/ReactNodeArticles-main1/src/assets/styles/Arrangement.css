@@ -1,0 +1,94 @@
+/* Arrangement.css */
+
+/* Container for the page */
+* {
+  border: none;
+}
+div {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  /* רקע בהיר יותר */
+  color: #333;
+  /* טקסט בצבע כהה */
+}
+
+/* Heading style */
+h1 {
+  font-size: 3rem;
+  /* גודל טקסט גדול יותר */
+  margin-bottom: 20px;
+  color: #6a1b9a;
+  /* צבע סגול */
+}
+
+/* File input and button styles */
+input[type="file"] {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #e8eaf6;
+  /* רקע בהיר של כחול */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  /* גודל טקסט יותר גדול */
+}
+
+button {
+  padding: 12px 25px;
+  background-color: #1e88e5;
+  /* כחול */
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  /* גודל טקסט יותר גדול */
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #1565c0;
+  /* כחול כהה */
+}
+
+/* Table styles */
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.2rem;
+  /* גודל טקסט יותר גדול */
+}
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #6a1b9a;
+  /* סגול כהה */
+  color: white;
+}
+
+td {
+  background-color: #f1f8e9;
+  /* צבע בהיר יותר של ירוק */
+}
+
+td:not(:first-child):hover {
+  background-color: #e1bee7;
+  /* צבע סגול בהיר */
+}
+
+/* Empty data message */
+td[colspan="4"] {
+  text-align: center;
+  font-style: italic;
+  color: #444;
+  /* טקסט כהה יותר */
+}
